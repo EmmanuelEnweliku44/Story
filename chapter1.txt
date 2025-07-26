@@ -1,0 +1,7 @@
+It was the best of technologia
+
+Note: code chapter1.txt lets u go into a file
+
+      "git init" allows u to initalize a git repository inside the folder you're currently in.
+      "ls -a" this allows you to see all files(including hidden ones) inside the folder.
+      "git status" shows the untracked files that are within ur working directory but not yet in the staging area
