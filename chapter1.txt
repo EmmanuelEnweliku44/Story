@@ -10,3 +10,4 @@ Note: code chapter1.txt lets u go into a file.
       "git log" shows you all the commits you've done. They will have different hashes cause all commits are unqiue. eg: commit 8a5e90a04df34c6ee585e698671f3b85292f4eea.
       "git diff" helps you check the difference between a file, if say u made some unwanted changes and would like to view what is missing or added.
       "git checkout chapter3.txt" helps u rollback your current file to the last version that was committed in the local repository.
+      Note: When you commit the new version of a file to the local repository the old version gets deleted from the repository by git automatically.
