@@ -5,4 +5,8 @@ Note: code chapter1.txt lets u go into a file.
       "ls -a" this allows you to see all files(including hidden ones) inside the folder.
       "git status" shows the untracked files that are within ur working directory but not yet in the staging area.
       "git add" Helps u add the file to the staging area. eg: git add chapter1.txt.
+      Use "git add chapter1.txt chapter2.txt chapter3.txt" or "git add ." to add everything inside the specific directory/folder.
       "git commit -m" helps you keep track of any changes made in every commit.
+      "git log" shows you all the commits you've done. They will have different hashes cause all commits are unqiue. eg: commit 8a5e90a04df34c6ee585e698671f3b85292f4eea.
+      "git diff" helps you check the difference between a file, if say u made some unwanted changes and would like to view what is missing or added.
+      "git checkout chapter3.txt" helps u rollback your current file to the last version that was committed in the local repository.
