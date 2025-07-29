@@ -1,4 +1,4 @@
-It was the best of technologia
+It was the best of aliens
 
 Note: code chapter1.txt lets u go into a file.
       "git init" allows u to initalize a git repository inside the folder you're currently in.
@@ -11,3 +11,11 @@ Note: code chapter1.txt lets u go into a file.
       "git diff" helps you check the difference between a file, if say u made some unwanted changes and would like to view what is missing or added.
       "git checkout chapter3.txt" helps u rollback your current file to the last version that was committed in the local repository.
       Note: When you commit the new version of a file to the local repository the old version gets deleted from the repository by git automatically.
+      "git branch (filename)" create a seperate branch different from your main one. In this case, git branch alien-plot.
+      "git branch" shows all the branches available, and the asteriks indicates which branch you're currently on.
+      "git checkout alien-plot" allows you to switch from main to the alien-plot branch.
+
+      // These 2 lines of code allows you to rename the main branch, i changed the name from master to main
+      git branch -m master main
+      git push -u origin main
+
